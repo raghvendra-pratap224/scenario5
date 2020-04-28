@@ -60,6 +60,8 @@ public class Test_Steps {
 	@Then("User logged in successfully")
 	public void user_logged_in_successfully() {
 		assertEquals(2, flag);
+		System.out.print(flag+" users Login are Successfull");
+		driver.close();
 	}
 
 }
